@@ -1,0 +1,29 @@
+{
+    "name": "dcat-admin/config",
+    "description": "website config",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/andyhuang123/dcat-admin.config",
+    "license": "MIT",
+    "authors": [{
+        "name": "coding",
+        "email": "356300546@qq.com"
+    }],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcat\\Admin\\Config\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Dcat\\Admin\\Config\\ConfigServiceProvider",
+        "laravel": {
+            "providers": [
+                "Dcat\\Admin\\Config\\ConfigServiceProvider"
+            ]
+        }
+    }
+}

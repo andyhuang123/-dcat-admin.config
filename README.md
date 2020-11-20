@@ -1,1 +1,1 @@
-# -dcat-admin.config
+# dcat-admin.config

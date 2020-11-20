@@ -1,4 +1,4 @@
-# 切换到master分支
+# 切换到main分支
 git checkout main
 
 # 将master分支的代合并到main
